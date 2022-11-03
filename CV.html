@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercise CSS</title>
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+	</head>
+
+	<script>
+		function showText(name) {
+			var x = document.getElementById(name);
+			x.style.display = "block";
+		}
+		function hideText(name){
+			var x = document.getElementById(name);
+			x.style.display = "none";
+		}
+	</script>
+			
+			<header><h1>Elia Domínguez Martínez</h1></header>
+			<hr>
+			<div class="infoInici">
+				<div class="bio">
+					<h2>About Me</h2>
+					
+					<img src="JohnSmithPicture.jpg" alt="Elia D" />
+					<div id="biografia">
+						<p>Work ethics to me are ambition, teamwork and always being ready to learn something new.
+
+						</p>
+						<div class="capsa" >
+						<div class="icon" onmouseover="showText('textart')" onmouseleave="hideText('textart')" style="background-color:white;background-image:url('art.jpg')">
+							<p id="textart" style="display:none;">Art has always been my main hobby. It requires patience and I really enjoy spending hours
+							on a work so it's all neat.</p>
+						</div>
+						<div class="icon" onmouseover="showText('textbook')" onmouseleave="hideText('textbook')" style="background-color:white;background-image:url('book.jpg')">
+							<p id="textbook" style="display:none;">I also have a passion for books and I'm looking forward to working with
+							any type of creative content creator, be it big or small business</p>
+						</div>
+						<div class="icon" onmouseover="showText('textgame')" onmouseleave="hideText('textgame')" style="background-color:white;background-image:url('game.jpg')">
+							<p id="textgame" style="display:none;">Videogames are my main source of fun and stress relieving. I greatly
+							respect my videogame developer coworkers.</p>
+						</div>
+						<div class="icon" onmouseover="showText('textpc')" onmouseleave="hideText('textpc')" style="background-color:white;background-image:url('pc.jpg')">
+							<p id="textpc" style="display:none;">It's important to use the right tools to work, and I completely see it
+								when using different keyboards. I am fascinated by the design of fancy tools for all kind of developers.</p>
+						</div>
+						</div>
+						Hover over the pictures to learn about myself
+					</div>
+				
+				</div>
+			</div>
+
+		<div class="capsa">
+			<div class="detalls"> <!-- aqui va la info personal -->
+						<h3>PERSONAL INFORMATION</h3>
+						<hr>
+						<p><b>Address: </b> C/ Moreres 2, Llers</p>
+						<p><b>Phone number: </b> <a href="tel:693045500">693045500</a></p>
+						
+						<p><b>E-mail address: </b><a href="mailto:u1972823@campus.udg.edu">u1972823@campus.udg.edu</a></p>
+			</div>
+			<div class="detalls"> <!-- aqui va la info dels idiomes-->
+				<h3>LANGUAGES</h3>
+				<hr>
+				<p>C2 in Catalan</p>
+				<p>C2 in Spanish</p>
+				<p>C1 in English</p>
+			</div>
+			<div class="detalls"> <!-- aqui va la info de cadascuna de les aptituds -->
+				<h3>EXPERIENCE</h3>
+				<hr>
+				<p>HTML:</p>
+				<div class="barrabuida"><div class="barraplena" style="width:40%">40%</div></div>
+				<p>Java:</p>
+				<div class="barrabuida"><div class="barraplena" style="width:70%">70%</div></div>
+				<p>UML:</p>
+				<div class="barrabuida"><div class="barraplena" style="width:55%">55%</div></div>
+				<p>...And willing to bring all the bars up!</p>
+				
+			</div>
+			<div class="detalls"> <!-- aqui va la info de la formacio -->
+				<h3>FORMATION</h3>
+				<hr>
+				<p><b>Alexandre Deulofeu:</b> Batxillerat (2020)</p>
+				<p><b>ISOM:</b> Volunteer work as room assistant (2017-2020)</p>
+				<p><b>Acadèmia Fita:</b> Private maths, physics, technology and English tutor</p>
+				<p>Currently studying Computer Engineering at <b>University of Girona</b></p>
+
+			</div>
+		</div>
+
+	<footer>
+		Done by Elia Domínguez
+	</footer>
+ 
+</html>
