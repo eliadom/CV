@@ -116,13 +116,12 @@ img{
 	background-size: 200px 200px;
 	width: 200px;
 	height: 200px;
-	border-radius: 5px;
+	border-radius: 20px;
 
 }
 
 .icon > p{
 	text-align: center;
-	border-radius: 5px;
 }
 
 
