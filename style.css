@@ -1,12 +1,19 @@
+h1{
+	font-family:'Trebuchet MS';
+}
 h2{
 	width:100%;
 	border-radius: 25px;
-	font-family:Georgia, Times, serif;
+	font-family:'Trebuchet MS';
 	font-size:1.2rem; 
 	background-color:#635192;
 	padding: 10px;
 	padding-left: 20px;
 	color: #ffffff;
+}
+
+p{
+	font-family:'Trebuchet MS';
 }
 
 hr{
@@ -33,6 +40,11 @@ h3{
 	text-align:center;
 }
 
+h4{
+	font-family:'Gill Sans';
+	color: rgb(168, 159, 173);
+}
+
 
 body{
    width: 96%;
@@ -55,6 +67,7 @@ body{
 	background-color: #d4d4d4;
 	justify-content: center;
 	flex-direction: row;
+
 }
 
 .detalls{
@@ -126,7 +139,9 @@ img{
 }
 
 .icon > p{
-	text-align: center;
+	top: 50%;
+	font-size:15px;
+	width: 150px;
 }
 
 
