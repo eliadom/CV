@@ -92,7 +92,7 @@ body{
 	border-radius: 5px;
 	flex-wrap: wrap;
 	font-family:Verdana,Arial, serif;
-	background-color: #d4d4d4;
+	background-color: #ffffff;
 	justify-content: center;
 	flex-direction: row;
 
@@ -143,13 +143,24 @@ nav{
 	flex-basis: 100%;
 }
 
+ul{
+	border-left: 10px solid #635192;
+	margin: 0px;
+	color:#635192;
+}
+
+ul li p{
+	font-size: 18px;
+	color: black;
+}
+
 img{
 	
 	vertical-align: center;
 	margin-right:10px;
 	size:90%;
 	margin:10px;
-	border-radius:5px;
+	border-radius:180px;
 	text-align: center;
 }
 
