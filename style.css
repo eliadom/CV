@@ -45,6 +45,7 @@ h3{
 	color: #635192;
 	text-align:center;
 	font-weight: bold;
+	letter-spacing: 3px;
 }
 
 h4{
@@ -126,7 +127,7 @@ body{
 .barraplena{
 	height: 20px;
 	width: 10%; 
-	background-color: #9F7E69;
+	background-color: #665050;
 	color: transparent;
 	transition-duration: 0.4s;
 }
@@ -196,14 +197,15 @@ img{
 
 
 .contact {
-	padding: 10px;
-	background-color:coral;
-
+	padding: 30px;
+	background-color:#665050;
+	height: 118px;
+	text-align:center;
 }
 
 footer{
 
-	background-color:#9F7E69;
+	background-color:#665050;
 	padding: 20px;
 	text-align: center;
 	color:white;
@@ -221,13 +223,13 @@ footer{
 }
 
 a:link {
-	color: #6e55ae;
+	color: #b9ad98;
 	background-color: transparent;
 	text-decoration: underline;
 }
 
 a:active {
-	color: #4b4084;
+	color: #888c3f;
 	text-decoration: underline;
 }
 
