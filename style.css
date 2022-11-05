@@ -54,6 +54,7 @@ body{
 	font-family:Verdana,Arial, serif;
 	background-color: #d4d4d4;
 	justify-content: center;
+	flex-direction: row;
 }
 
 .detalls{
@@ -116,8 +117,12 @@ img{
 	background-size: 200px 200px;
 	width: 200px;
 	height: 200px;
-	border-radius: 20px;
-
+	border-radius: 200px;
+	outline: solid 5px #635192;
+	text-align: center;
+	display: flex;
+    align-items: center;
+	padding-left: 150px;
 }
 
 .icon > p{
