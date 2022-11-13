@@ -9,3 +9,5 @@ From the very beginning I was sure I wanted a colour palette that would look rat
 Along with that, a 3 colour palette was chosen using Coolors. A soft orange was created to convey cozyness.
 
 FIGMA LINK: https://www.figma.com/file/I47dIkl5EM40J82o3lk7bO/Untitled
+
+GITHUB PAGES LINK: https://eliadom.github.io/CV/
