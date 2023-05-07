@@ -45,7 +45,7 @@ h3{
 	color: #635192;
 	text-align:center;
 	font-weight: bold;
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 }
 
 h4{
@@ -59,18 +59,23 @@ h4{
 
 .mainflex{
 	display: flex;
+	position:relative;
 	height: 50%;
 	vertical-align: center;
 	justify-content: center;
 }
 
 .smallflex{
+	display:inline-block;
+	align-items: center;
+	justify-content: center;
 	text-align:center;
+	
 	margin: 0px;
 	width: calc(100%/3);
-	height: 700px;
 	background-color: white;
 }
+
 
 
 body{
@@ -88,14 +93,14 @@ body{
 
 
 .capsa{
+	height:max-content;
 	flex-basis: 100%;
 	display: flex;
-	border-radius: 5px;
 	flex-wrap: wrap;
 	font-family:Verdana,Arial, serif;
-	background-color: #ffffff;
+	background-image: linear-gradient(to bottom right, rgb(212, 178, 255), rgb(223, 179, 143));
 	justify-content: center;
-	flex-direction: row;
+	
 
 }
 
@@ -104,16 +109,17 @@ body{
 	margin: 10px;
 	border-radius: 20px;
 	font-family:Verdana,Arial, serif;
-	background-image:url("fonsDetall.jpg");
-	padding: 20px;
-	opacity: 0.7;
+	background-color: white;
+	padding: 10px;
+	opacity: 0.6;
 	transition-duration: 0.4s;
 	object-fit: cover;
-	max-height: 320px;
+	max-height: 600px;
+	min-width: 350px;
 }
 
 .detalls:hover{
-	opacity: 1;
+	opacity: 0.8;
 }
 
 .barrabuida{
@@ -133,7 +139,7 @@ body{
 }
 
 .barraplena:hover{
-	color: white;
+	color: black;
 }
 
 nav{
@@ -166,14 +172,14 @@ img{
 }
 
 .icon{
-	margin:10px;
+	
+	margin:15px;
 	margin-left: 78%;
-	border-radius: 75px;
-	border-right:solid 400px white;
+	border-radius: 100px;
 	background-repeat: no-repeat;
 	background-size: 150px 150px;
-	width: 150px;
-	height: 150px;
+	width: 100%;
+	height: calc(100%/3.5);
 	text-align: center;
 	display: flex;
     align-items: center;
@@ -184,14 +190,15 @@ img{
 
 .icon:hover{
 	border-right:solid 400px white;
-	margin-left: 20px;
-	width: 90%;
+	margin-left: 40px;
+	
+	width: 100%;
 	color:black;
 }
 
 .icon > p{
 	padding-left: 40px;
-	font-size:20px;
+	font-size:16px;
 	width: 300px;
 }
 
@@ -199,7 +206,6 @@ img{
 .contact {
 	padding: 30px;
 	background-color:#665050;
-	height: 118px;
 	text-align:center;
 }
 
